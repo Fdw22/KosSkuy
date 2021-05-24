@@ -1,0 +1,222 @@
+.between-xs {
+
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+
+}
+.middle-xs {
+
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+
+}
+.flex {
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+
+}
+
+.prdctfltr_wc:not(.prdctfltr_maxheight) {
+
+    height: auto !important;
+
+}
+.prdctfltr_wc {
+
+    position: relative;
+    margin-bottom: 35px;
+    clear: both;
+
+}
+.prdctfltr_wc {
+
+    width: 100%;
+
+}
+.prdctfltr_wc {
+
+    z-index: 1;
+
+}
+.prdctfltr_wc {
+
+    width: 100%;
+
+}
+.prdctfltr_wc {
+
+    z-index: 1;
+
+}
+
+.prdctfltr_wc.prdctfltr_woocommerce.pf_select .prdctfltr_woocommerce_ordering {
+
+    position: relative;
+    top: 100%;
+    left: 0;
+    padding: 0;
+
+}
+.prdctfltr_woocommerce.prdctfltr_wc.prdctfltr_always_visible .prdctfltr_woocommerce_ordering {
+
+    display: block;
+
+}
+.prdctfltr_wc.prdctfltr_always_visible .prdctfltr_woocommerce_ordering {
+
+    display: block;
+
+}
+.prdctfltr_woocommerce .prdctfltr_woocommerce_ordering {
+
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+.prdctfltr_wc .prdctfltr_woocommerce_ordering {
+
+    position: relative;
+    display: none;
+
+}
+
+.pf_default_select .prdctfltr_filter_wrapper, .pf_select .prdctfltr_filter_wrapper {
+
+    margin-bottom: -10px;
+
+}
+
+.prdctfltr_wc.prdctfltr_woocommerce.pf_select .prdctfltr_filter_inner {
+
+    padding-bottom: 0;
+    overflow: visible;
+
+}
+.prdctfltr_wc.pf_select .prdctfltr_filter_inner {
+
+    margin-bottom: 0;
+
+}
+.prdctfltr_wc .prdctfltr_filter_inner {
+
+    padding: 0;
+        padding-bottom: 0px;
+
+}
+
+
+.prdctfltr_wc.pf_select .prdctfltr_filter {
+
+    margin-bottom: 0;
+
+}
+.prdctfltr_columns_4 .prdctfltr_filter {
+
+    width: 25%;
+
+}
+.prdctfltr_woocommerce .prdctfltr_filter {
+
+    position: relative;
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+}
+.prdctfltr_filter {
+
+    vertical-align: top;
+
+}
+
+.prdctfltr_wc.prdctfltr_woocommerce.pf_select .prdctfltr_filter .prdctfltr_regular_title {
+
+    cursor: pointer;
+
+}
+.pf_default_select .prdctfltr_filter .prdctfltr_regular_title, .pf_select .prdctfltr_filter .prdctfltr_regular_title {
+
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 10px 15px;
+        padding-right: 15px;
+    padding-right: 32px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    cursor: pointer;
+    color: #444;
+
+}
+.prdctfltr_filter .prdctfltr_regular_title {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.prdctfltr_filter .prdctfltr_regular_title {
+
+    display: block;
+    font-weight: 600;
+    line-height: 26px;
+    padding-bottom: 5px;
+
+}
+
+.prdctfltr_wc.prdctfltr_woocommerce.pf_select i.prdctfltr-down, .prdctfltr_wc.prdctfltr_woocommerce.pf_select i.prdctfltr-up {
+
+    position: absolute;
+    top: 11px;
+    right: 18px;
+
+}
+.prdctfltr_terms_customized_select .prdctfltr-down, .prdctfltr_terms_customized_select .prdctfltr-up, .pf_default_select .prdctfltr-down, .pf_default_select .prdctfltr-up, .pf_select .prdctfltr-down, .pf_select .prdctfltr-up {
+
+    display: block;
+
+}
+.prdctfltr-down, .prdctfltr-up {
+
+    display: none;
+
+}
+dfn, cite, em, i {
+
+    font-style: italic;
+
+}
+
+
+doprdown gagal
+<!-- filter -->
+  <div class="dropdown">
+    <a onclick="myFunction()" class="dropbtn" style="font-weight:bold; font-family:Didact Gothic; padding-right:100px;">Sort By</a>
+      <div id="myDropdown" class="dropdown-content" style="margin-top: 1px; font-siz e:10px;">
+          <input type="checkbox" name="vehicle1" value="Bike" style="margin-left:20px; margin-top:20px; margin-bottom: 15px;"> None<br>
+          <input type="checkbox" name="vehicle2" value="Car" style="margin-left:20px; margin-bottom: 15px;"> Popularity<br>
+          <input type="checkbox" name="vehicle3" value="Boat" style="margin-left:20px; margin-bottom: 15px;"> Price: Low to high<br> 
+          <input type="checkbox" name="vehicle3" value="Boat" style="margin-left:20px; margin-bottom: 15px;"> Price: High to low<br> 
+      </div>
+  </div>
+
+
+<!--NAVBAR SALAH-->

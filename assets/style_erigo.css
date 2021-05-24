@@ -1,0 +1,46 @@
+.nav-item:hover {
+	background-color: blue;
+}
+
+.zoom {
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #333;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.ts__05 {
+	transition: all .5s;
+}
+
+.w__100 {
+	width: 100%;
+}
+
+.kategori {
+	background-color: #00B1B8;
+}
+
+.shop {
+	color: white;
+}
+
+.cart {
+	padding: 70px 0;
+	background-color: grey;
+}
+
+.cart2 {
+	color: aliceblue;
+}
+
+.padding1 {
+	border: 1px solid lightseagreen;
+	padding: 20px;
+	background-color: lightblue;
+}
