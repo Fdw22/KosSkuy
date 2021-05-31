@@ -39,7 +39,7 @@ class Auth extends Admin_Controller
            				'id' => $login['id'],
 				        'username'  => $login['username'],
 				        'email'     => $login['email'],
-				        'logged_in' => TRUE
+				        'logged_in' => 1
 					);
 
 					$this->session->set_userdata($logged_in_sess);

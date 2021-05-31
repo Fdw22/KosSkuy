@@ -18,7 +18,7 @@ class Users extends Admin_Controller
 	
 	public function index()
 	{
-		if(!in_array('viewUser', $this->permission)) {
+		if(in_array('viewUser', $this->permission)) {
 			redirect('dashboard', 'refresh');
 		}
 
@@ -233,7 +233,7 @@ class Users extends Admin_Controller
 
 	public function setting()
 	{	
-		if(!in_array('updateSetting', $this->permission)) {
+		if(in_array('updateSetting', $this->permission)) {
 			redirect('dashboard', 'refresh');
 		}
 
