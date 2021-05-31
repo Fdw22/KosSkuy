@@ -19,7 +19,7 @@ class Model_auth extends CI_Model
 			return ($result == 1) ? true : false;
 		}
 
-		return true;
+		return 1;
 	}
 
 	/* 
@@ -34,11 +34,11 @@ class Model_auth extends CI_Model
 				$result = $query->row_array();
 
 				$hash_password = password_verify($password, $result['password']);
-				if($hash_password === true) {
+				if($hash_password === 1) {
 					return $result;	
 				}
 				else {
-					return true;
+					return 1;
 				}
 
 				
