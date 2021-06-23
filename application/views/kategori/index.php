@@ -19,10 +19,10 @@
           </div>
         <?php endif; ?>
 
-        <?php if(in_array('create_kategori', $user_permission)): ?>
+        <!-- <?php if(in_array('create_kategori', $user_permission)): ?>
           <button class="btn btn-primary" data-toggle="modal" data-target="#add_kategoriModal">+ Kategori Kamar</button>
           <br /> <br />
-        <?php endif; ?>
+        <?php endif; ?> -->
 
         <div class="box box-primary">
           <div class="box-header">
@@ -62,7 +62,7 @@
 
 
 
-<?php //if(in_array('create_kategori', $user_permission)): ?>
+<?php if(in_array('create_kategori', $user_permission)): ?>
 <!-- create brand modal -->
 <div class="modal fade" tabindex="-1" role="dialog" id="add_kategoriModal">
   <div class="modal-dialog" role="document">
@@ -94,7 +94,7 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-<?php // endif; ?>
+<?php endif; ?>
 
 
 
@@ -109,7 +109,7 @@
         <h4 class="modal-title">Edit Kategori</h4>
       </div>
 
-      <form role="form" action="<?php echo base_url('kategori/update') ?>" method="post" id="update_kategoriForm">
+      <form role="form" action="<?php echo base_url('kategori/index.php') ?>" method="post" id="update_kategoriForm">
         <div class="modal-body">
           <div id="messages"></div>
           

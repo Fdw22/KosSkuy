@@ -19,10 +19,10 @@
           </div>
         <?php endif; ?>
 
-        <?php if(in_array('create_kamar', $user_permission)): ?>
+        <!-- <?php if(in_array('create_kamar', $user_permission)): ?>
           <button class="btn btn-primary" data-toggle="modal" data-target="#add_kamarModal">+ Kamar</button>
           <br /> <br />
-        <?php endif; ?>
+        <?php endif; ?> -->
 
         <div class="box box-primary">
           <div class="box-header">
